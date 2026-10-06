@@ -9,5 +9,19 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+        /*
+         * Kevin
+         *  A house in the night
+         */
 
-}
+                System.out.print("   /\\\t   *   \n");
+                System.out.print("  /  \\    \"*\"  \n");
+                System.out.print(" / || \\   /\\/\\ \n");
+                System.out.print(" | [] |  /\\\\/\\\n");
+                System.out.print(" |____| \"Home\" \n");
+            }
+        }
+
+
+
