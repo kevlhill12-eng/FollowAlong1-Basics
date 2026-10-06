@@ -14,5 +14,19 @@ package part01;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Main {
+    // A jumpstart of every program
+    public static void main(String[] args) {
+        //Prints out "I love peanut butter and jelly sandwiches" while using escape sequences, quotes, and a newline command
+        System.out.println("\t\"I love peanut butter and jelly sandwiches\"\n");
+        // prints out "It's really good" while using the backslash command
+        System.out.println("It's really good \\");
 
+    // this is a comment
+        /*
+        This
+        is
+        a
+        comment
+         */
+    }
 }
