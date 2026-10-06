@@ -8,10 +8,15 @@ package part00;
 // Your one job in this file: change YOUR NAME below to your actual name,
 // run it, and check the output matches the README.
 
+// We are defining a public template called main
 public class Main {
+    // Line 14 is the jumpstarter of every program
     public static void main(String[] args) {
+        // Line 16 prints out "part 00" just for visual
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+        // Line 18 prints out "Hello from Kevin Hill"
+        System.out.println("Hello from Kevin Hill");
+        //Line 20 prints out if your program works
         System.out.println("If you can read this, your setup works.");
     }
 }
