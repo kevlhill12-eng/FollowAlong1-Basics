@@ -15,5 +15,20 @@ package part03;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Swap {
+    public static void main(String[] args) {
+        String x = "water";
+        String y = "kool-aid";
+        String temp;
+        temp = x;
+        x = y;
+        y = temp;
 
+
+
+        System.out.println(x);
+        System.out.println(y);
+
+
+
+    }
 }
