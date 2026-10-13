@@ -10,37 +10,51 @@ package part02;
 
 public class Stretch {
     public static void main(String[] args) {
-        /*
-        MY Guess
-        A
-        BC
-        I mixed up which "print" makes a new line
-            D\
-        "E"G
-        I mixed up which print makes a new line
+       /* MY guess
+       7
+       7.0
+       a+b
+       a: 7
+       77
+       77! i thought this one wouldnt add together
+       A
+       true
+       */
+        int a = 7;
+        double b = 7;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println("a + b");
+        System.out.println("a: " + a);
+        System.out.println("" + a + a);
+        System.out.println(a + a + "!");
+        char c = 'A';
+        System.out.println(c);
+        boolean on = true;
+        System.out.println(on);
 
-         */
-        System.out.print("A");
-        System.out.println("B");
-        System.out.print("C\n");
-        System.out.println("\tD\\");
-        System.out.println("\"E\"");
-// System.out.println("F");
-        System.out.print("G");
-        System.out.println();
+        String name = "Kevin Hill";
+        int age = 19;
+        double GPA = 3.4;
+        boolean Commuter = false;
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(GPA);
+        System.out.println(Commuter);
 
-        System.out.println("Kevin Hill");
-        System.out.println("Computer science");
-        System.out.println("Class of 2029");
+        char n = 'K';
+        int numClass = 4;
+        double creditHour = 17.5;
+        boolean hasACar = false;
+        String major = "Computer Science";
 
-        System.out.print("Kevin Hill\nComputer science\nClass of 2029");
+        System.out.println(n + " takes " + numClass + " in " + major +", for " + creditHour + "credit hours. Has a car: " + hasACar);
 
-        System.out.println("Day\tClass\t\tTime");
-        System.out.println("Mon\tCSCI-121\t\t2:00PM");
-        System.out.println("Tue\tCSCI-121\t\t3:00PM");
-        System.out.println("My teacher said \"type it in yourself.\"");
-        System.out.println("My code lives in C:\\Users\\Kevin\\csci121");
-
+        String city = "Dover";
+        long people = 4000000000L;
+        char grade = 'B';
+        float temp = 72.5F;
+        System.out.println(city + " " + people + " " + grade + " " + temp);
 
     }
 }
