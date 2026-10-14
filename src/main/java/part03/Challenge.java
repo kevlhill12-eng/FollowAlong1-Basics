@@ -8,6 +8,32 @@ package part03;
 //
 // There is no main method here yet. Typing it is part of the challenge.
 
-public class Challenge {
 
+import java.util.Scanner;
+
+public class Challenge {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Name a thief:");
+        String thief = scanner.nextLine();
+
+        System.out.println("Name a target:");
+        String target = scanner.nextLine();
+
+        System.out.println("Pick a number:");
+        int number = scanner.nextInt();
+        scanner.nextLine();
+
+        System.out.println("Name a gadget:");
+        String gadget = scanner.nextLine();
+
+        String temp = thief;
+        thief = target;
+        target = temp;
+
+        System.out.println(thief + " sneaked into the museum using " + gadget + ".");
+        System.out.println("There were " + number + " guards patrolling the grand hall.");
+        System.out.println("Plot twist: " + target + " was guarding the vault all along!");
+    }
 }
