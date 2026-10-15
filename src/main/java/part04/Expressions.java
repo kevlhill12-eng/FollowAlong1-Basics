@@ -15,5 +15,37 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Expressions {
+    public static void main(String[] args) {
+        int friends = 10;
 
+        friends = friends + 1;
+        System.out.println(friends);
+
+        friends = friends * 2;
+        System.out.println(friends);
+
+        friends = friends / 2;
+        System.out.println(friends);
+
+        friends = friends % 3;
+        System.out.println(friends);
+
+        friends = friends % 2;
+        System.out.println(friends);
+
+        friends++;
+        System.out.println(friends);
+
+        friends--;
+        System.out.println(friends);
+
+        friends = friends / 3;
+        System.out.println(friends);
+
+        double friends1 = 10;
+        friends1 = (double) friends1 / 3;
+
+        System.out.println(friends1);
+
+    }
 }
