@@ -16,25 +16,24 @@ package part05;
 
 public class MathMethods {
     public static void main(String[] args){
-        double x = 3.14;
-        double y = -10;
+        double x = 3.14; // set x to pi
+        double y = -10; // set y to a negative number
 
-        double z = Math.max(x,y);
-        System.out.println(z);
-        double z2 = Math.min(x,y);
-        System.out.println(z2);
-        double z3 = Math.abs(y);
-        System.out.println(z3);
-        double z4 = Math.sqrt(y);
-        System.out.println(z4);
-        double z5 = Math.sqrt(x);
-        System.out.println(z5);
-        double z6 = Math.round(x);
-        System.out.println(z6);
-        double z7 = Math.ceil(x);
-        System.out.println(z7);
-        double z8 = Math.floor(x);
-        System.out.println(z8);
+        double z = Math.max(x,y); // find the bigger number between x and y
+        System.out.println(z); // print out z
+        double z2 = Math.min(x,y); // find the smaller number between x and y
+        System.out.println(z2); // print out z2
+        double z3 = Math.abs(y); // turn y positive with absolute value
+        System.out.println(z3); // print out z3
+        double z4 = Math.sqrt(y); // try to square root a negative (returns NaN)
+        System.out.println(z4); // print out z4
+        double z5 = Math.sqrt(x); // find the square root of x
+        System.out.println(z5); // print out z5
+        double z6 = Math.round(x); // round x to the nearest whole number
+        System.out.println(z6); // print out z6
+        double z7 = Math.ceil(x); // round x up to the next whole number
+        System.out.println(z7); // print out z7
+        double z8 = Math.floor(x); // round x down to the whole number below
+        System.out.println(z8); // print out z8
     }
-
 }

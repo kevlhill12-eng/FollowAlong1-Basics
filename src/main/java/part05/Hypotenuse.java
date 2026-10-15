@@ -14,22 +14,23 @@ package part05;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
 
-import java.util.Scanner;
+import java.util.Scanner; // bring in scanner to read user input
+
 public class Hypotenuse {
     public static void main(String[] args) {
-        double x;
-        double y;
-        double z;
+        double x; // declare variable for side x
+        double y; // declare variable for side y
+        double z; // declare variable for the hypotenuse
 
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner (System.in); // create scanner object
 
-        System.out.println("Enter side x: ");
-        x = scanner.nextDouble();
-        System.out.println("Enter side y: ");
-        y = scanner.nextDouble();
+        System.out.println("Enter side x: "); // prompt for side x
+        x = scanner.nextDouble(); // read the value for x
+        System.out.println("Enter side y: "); // prompt for side y
+        y = scanner.nextDouble(); // read the value for y
 
-        z = Math.sqrt((x*x)+(y*y));
-        System.out.println("The hypotenuse is: "+ z);
+        z = Math.sqrt((x*x)+(y*y)); // use Pythagorean theorem to find the hypotenuse
+        System.out.println("The hypotenuse is: "+ z); // print out the result
 
     }
 }
